@@ -5,9 +5,9 @@ spring:
 spring:
   profiles: dev
   r2dbc:
-    url: r2dbc:postgresql://localhost:5432/test
+    url: r2dbc:postgresql://localhost:5432/teste
     username: postgres
-    password: postgres
+    password: 1203
 logging:
   level:
     org.springframework.data.r2dbc: Debug
@@ -22,9 +22,9 @@ spring:
 spring:
   profiles: prod
   r2dbc:
-    url: r2dbc:postgresql://localhost:5432/test
+    url: r2dbc:postgresql://localhost:5432/teste
     username: postgres
-    password: postgres
+    password: 1203
   logging:
     level:
       org.springframework.data.r2dbc: Debug
